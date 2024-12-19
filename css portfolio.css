@@ -242,7 +242,7 @@ span {
     margin: 1rem 0 3rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     body {
         font-size: 50%;
     }
@@ -490,6 +490,7 @@ span {
     margin-top: 2rem;
     cursor: pointer;
 }
+
 /* Footer Section */
 .footer {
     background-color: var(--second-bg-color);
@@ -512,7 +513,7 @@ span {
 }
 
 .footer-column {
-    flex: 1 1 calc(33.333% - 2rem); /* Equal columns with spacing */
+    flex: 1 1 calc(33.333% - 2rem);
     margin-bottom: 2rem;
 }
 
@@ -623,7 +624,7 @@ span {
     }
 
     .footer-column {
-        flex: 1 1 calc(50% - 2rem); /* Two columns layout */
+        flex: 1 1 calc(50% - 2rem);
         text-align: left;
     }
 
@@ -658,12 +659,12 @@ span {
     }
 
     .footer-column p,
-    .footer-column ul li a {
+    .footer-column ul li {
         font-size: 1.4rem;
     }
 
-    .footer-credit {
-        font-size: 1.2rem;
+    .footer-column ul li a {
+        font-size: 1.4rem;
     }
 
     .social-links a {
